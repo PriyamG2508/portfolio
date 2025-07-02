@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyam Gupta</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Priyam Gupta</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Priyam Gupta</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="about">
+    <div class="section__text">
+      <h1 class="title">About</h1>
+      <p class="section__text__p1">Hello, I'm Priyam Gupta — an aspiring data scientist and data analyst passionate
+        about turning complex data into actionable insights and scalable solutions. I specialize in Python, SQL, and
+        business intelligence tools, with hands-on experience building interactive dashboards, automated data pipelines,
+        and machine learning models that solve real-world problems.
+        <br>My expertise spans the complete data lifecycle — from collection and cleaning to advanced analysis,
+        visualization, and deployment. I'm particularly drawn to projects involving automation workflows, predictive
+        analytics, and creating data-driven solutions that streamline operations and drive strategic decision-making.
+      </p>
+      <p class="section__text__p1">I thrive on bridging the gap between technical complexity and practical
+        implementation, always seeking opportunities to collaborate with fellow innovators in data science, analytics,
+        and automation.</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Priyam_Gupta_Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/Linkedin_logo.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/priyamg2508/'" />
+        <img src="./assets/Github_logo.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/PriyamG2508'" />
+      </div>
+    </div>
+  </section>
+  <section id="experience">
+    <h1 class="title">Experience</h1>
+    <div class="experience-timeline">
+      <div class="experience-item">
+        <div class="experience-header">
+          <div class="job-info">
+            <h2 class="job-title">Data Analyst Intern</h2>
+            <span class="company-name">The Social Purpose Trust</span>
+          </div>
+          <div class="date-location-info">
+            <span class="date-location">2025/02 - Present</span>
+            <span class="location">India (Remote)</span>
+          </div>
+        </div>
+        <p class="job-description">
+          Performed end-to-end data collection, cleaning, and analysis for climate impact projects. Implemented
+          automation scripts and data pipelines to reduce manual processing time. Developed comprehensive dashboards for
+          data visualization and collaborated with development teams to integrate analytical solutions into the Surya
+          Sangam Web Portal platform.
+        </p>
+      </div>
+      <div class="experience-item">
+        <div class="experience-header">
+          <div class="job-info">
+            <h2 class="job-title">Machine Learning Research Intern</h2>
+            <span class="company-name">Indian Institute of Technology, Roorkee</span>
+          </div>
+          <div class="date-location-info">
+            <span class="date-location">2024/06 - 2024/07</span>
+            <span class="location">India (Remote)</span>
+          </div>
+        </div>
+        <p class="job-description">
+          Developed and implemented a piecewise linear approximation of the GeLU activation function achieving less than
+          5% approximation error. Conducted theoretical analysis and performance evaluation, demonstrating improved
+          inference speed and reduced computational resources for edge computing applications.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <h1 class="section-title">Projects</h1>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Customer Acquisition & Revenue Analysis</h2>
+          <a href="https://github.com/PriyamG2508/Customer-Acquisition-and-Revenue-Analysis" target="_blank"
+            rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Investigated a 46% decline in monthly customer acquisition (5.2 to 2.8) for a multinational automobile company
+          using SQL, Python, and Power BI. Analysis revealed the decline masked successful premium market positioning,
+          resulting in $789,951 revenue increase through strategic shift from volume-based to value-based customer
+          acquisition.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Plotly</span>
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Power BI</span>
+          <span class="tech-tag">SqlAlchemy</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">World Population Analysis</h2>
+          <a href="https://github.com/PriyamG2508/World-Population-Analysis-" target="_blank" rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Comprehensive world population data analysis using Python, Pandas, and NumPy for data manipulation. Features
+          exploratory data analysis and interactive visualizations through Matplotlib, Seaborn, and Plotly to uncover
+          global demographic trends and population distribution patterns.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Plotly</span>
+          <span class="tech-tag">Seaborn</span>
+          <span class="tech-tag">Numpy</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Face Expression Detection</h2>
+          <a href="https://github.com/PriyamG2508/Face-Expression-Detection" target="_blank" rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Developed a real-time facial emotion detection web application using Streamlit, OpenCV, and deep learning. The
+          system identifies seven emotions through webcam feed using a custom-trained CNN model built with Keras and
+          TensorFlow for accurate classification.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Tensorflow</span>
+          <span class="tech-tag">OpenCV</span>
+          <span class="tech-tag">Keras</span>
+          <span class="tech-tag">Streamlit</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Personal Portfolio</h2>
+          <a href="https://github.com/PriyamG2508" target="_blank" rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Developed a personal portfolio website using HTML, CSS, and JavaScript.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">Javascript</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">GDP Analysis</h2>
+          <a href="https://github.com/PriyamG2508/GDP-Analysis" target="_blank" rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Comparative GDP analysis examining India versus global economies across multiple years using Python, Pandas,
+          and visualization libraries to understand economic trends and growth patterns.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Matplotlib</span>
+          <span class="tech-tag">Seaborn</span>
+        </div>
+      </div>
+  
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">US Housing App</h2>
+          <a href="https://priyamguptashinyapp.shinyapps.io/us_housing_app/" target="_blank" rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Interactive U.S. housing market dashboard built with Shiny for Python, leveraging Pandas for data manipulation
+          and Plotly Express for dynamic visualizations. Features real-time filtering by state and date ranges,
+          analyzing median listing prices, inventory levels, and new listings across all 50 states from
+          2018-2025.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Plotly</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Shiny</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <h2 class="project-title">Quick o Pedia</h2>
+          <a href="https://github.com/PriyamG2508/Quick-o-pedia" target="_blank" rel="noopener noreferrer">
+            <svg class="project-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.53 1.53" />
+              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.53-1.53" />
+            </svg>
+          </a>
+        </div>
+        <p class="project-description">
+          Wikipedia scraper built with Streamlit and Beautiful Soup. Users input topics to extract and display Wikipedia
+          data through an intuitive web interface.
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Beautiful Soup</span>
+          <span class="tech-tag">Streamlit</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact-container">
+      <h1 class="title contact-title">Contact</h1>
+      <p class="contact-subtitle">Ready to collaborate or discuss opportunities? I'd love to hear from you!</p>
+
+      <div class="contact-cards">
+        <div class="contact-card email-card">
+          <div class="contact-card-inner">
+            <div class="contact-icon-wrapper">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div class="contact-content">
+              <h3 class="contact-method">Email</h3>
+              <a href="mailto:priyamg2508@gmail.com" class="contact-link">priyamg2508@gmail.com</a>
+            </div>
+            <div class="contact-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17l9.2-9.2M17 17V7H7" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-card linkedin-card">
+          <div class="contact-card-inner">
+            <div class="contact-icon-wrapper">
+              <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </div>
+            <div class="contact-content">
+              <h3 class="contact-method">LinkedIn</h3>
+              <a href="https://www.linkedin.com/in/priyamg2508/" class="contact-link">Connect with me</a>
+            </div>
+            <div class="contact-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 17l9.2-9.2M17 17V7H7" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025 Priyam Gupta. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
